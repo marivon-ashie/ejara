@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/nav.css";
-import logo from "../assets/logo.svg";
+import logo from "../assets/images/logo.svg";
 import { CiGlobe } from "react-icons/ci";
 
 const Nav = () => {
@@ -23,7 +23,7 @@ const Nav = () => {
           <a href="p">Ejara of Business </a>{" "}
         </li>
       </ul>
-      <div  className="continent">
+      <div className="continent">
         {" "}
         <CiGlobe /> <p>Africa</p>
       </div>
