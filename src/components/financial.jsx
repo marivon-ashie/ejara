@@ -1,7 +1,7 @@
-import React from "react"
-import "../styles/Financial.css"
-import googlePlayStore from "../assets/google-play-store.png";
-import appStore from "../assets/appStore.png";
+import React from "react";
+import "../styles/Financial.css";
+import googlePlayStore from "../assets/images/google-play-store.png";
+import appStore from "../assets/images/appStore.png";
 
 const Financial = () => {
   return (
