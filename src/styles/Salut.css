@@ -1,4 +1,13 @@
-.string{
-    display: flex;
-    align-items: center;
+.salut  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+
+  
+}
+.salut .image-container{
+  width: 100dvw;
+  
 }
