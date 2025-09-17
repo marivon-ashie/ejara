@@ -1,0 +1,26 @@
+.financial {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.financial-container {
+  width: 75%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.financial .image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.financial img {
+  width: 30%;
+}
+
+.financial h2 {
+  font-size: 3.5rem;
+  /* line-height: 1.5; */
+}

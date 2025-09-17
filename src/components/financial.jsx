@@ -5,16 +5,19 @@ import appStore from "../assets/images/appStore.png";
 
 const Financial = () => {
   return (
-    <div className="">
-      <h2>your financial companion</h2>
-      <p>
-        Where Every Transaction Counts: Investing, Saving and Paying with Ejara
-      </p>
-      <div>
-        <img src={googlePlayStore} alt="googlePlayStore" />{" "}
-        <img src={appStore} alt="appStore" />
+    <section className="financial">
+      <div className="financial-container">
+        <h2>Your financial companion</h2>
+        <p>
+          Where Every Transaction Counts: Investing, Saving and Paying with
+          Ejara
+        </p>
+        <div className="image-container">
+          <img src={googlePlayStore} alt="googlePlayStore" />{" "}
+          <img src={appStore} alt="appStore" />
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 

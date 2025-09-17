@@ -1,3 +1,7 @@
+@font-face {
+  font-family: dmsams;
+  src: url(../assets/fonts/DM_Sans/DMSans-VariableFont_opsz_wght.ttf);
+}
 * {
   margin: 0;
   padding: 0;
@@ -7,8 +11,8 @@ html {
   font-size: 16px;
 }
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  color: black;
+  font-family: dmsams, Arial, Helvetica, sans-serif;
+  color: #0c1825;
   font-weight: 400;
   background-color: #fff;
   line-height: 1.5;
@@ -19,7 +23,7 @@ h3,
 h4 {
   line-height: 1.2;
   font-weight: 700;
-  margin: 1em 0;
+  margin: 10px 0;
 }
 
 img {
@@ -27,4 +31,7 @@ img {
   display: block;
   height: auto;
   object-fit: cover;
+}
+section {
+  min-height: 70dvh;
 }
