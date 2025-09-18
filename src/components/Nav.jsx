@@ -4,7 +4,7 @@ import logo from "../assets/images/logo.svg";
 import { CiGlobe } from "react-icons/ci";
 
 const Nav = () => {
-  return (
+  return ( 
     <div class="nav">
       <div className="logo">
         <img src={logo} alt="logo" />

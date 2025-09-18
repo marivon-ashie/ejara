@@ -4,7 +4,7 @@ import googlePlayStore from "../assets/images/google-play-store.png";
 import appStore from "../assets/images/appStore.png";
 
 const Financial = () => {
-  return (
+  return ( 
     <section className="financial">
       <div className="financial-container">
         <h2>Your financial companion</h2>
