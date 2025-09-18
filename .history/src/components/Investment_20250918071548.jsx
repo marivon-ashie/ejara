@@ -1,5 +1,5 @@
 import React from "react";
-import secondPhone from "../assets/images/invest-phone.png";
+import secondPhone from "../assets/images/second-Phone.png";
 import "../styles/investment.css";
 import { FaArrowRight } from "react-icons/fa";
 import { BiArrowBack } from "react-icons/bi";

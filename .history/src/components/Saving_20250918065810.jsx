@@ -11,18 +11,17 @@ const Saving = () => {
         <img src={secondPhone} alt="secondPhone" />
       </div>
       <div className="savings-container">
-        <h1>Savings box</h1>
+        <h1>savings box</h1>
         <p>
-          Easily save for emergencies while earning a 2% annual interest rate.
-          Backed by government bonds, it guarantees security, flexibility, and
-          easy access to your funds. Download the app to start saving.
+          Easy to spend on emergencies while benefiting from an annual interest
+          rate of 2%. It is backed by government obligations, it ensures
+          security, flexibility and easy access to your funds. Download the app
+          to start saving.
         </p>
-        {/* <div className="arrow"> */}
-        <a href="#">
+        <div className="arrow">
           <BiArrowBack className="arrow" size={30} color="#000" />
-        </a>
-        {/* <FaArrowRight size={30} color="#000" /> */}
-        {/* </div> */}
+          {/* <FaArrowRight size={30} color="#000" /> */}
+        </div>
       </div>
     </section>
   );

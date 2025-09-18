@@ -1,5 +1,5 @@
 import React from "react";
-import secondPhone from "../assets/images/invest-phone.png";
+import secondPhone from "../assets/images/second-Phone.png";
 import "../styles/investment.css";
 import { FaArrowRight } from "react-icons/fa";
 import { BiArrowBack } from "react-icons/bi";
@@ -11,11 +11,11 @@ const Investment = () => {
         <img src={secondPhone} alt="secondPhone" />
       </div>
       <div className="investment-container">
-        <h1>Investment</h1>
+        <h1>investment savings</h1>
         <p>
-          Invest like professionals in government bonds from 1000 CFA francs and
-          earn up to 6.5% annual interest. The capital is guaranteed by the Bank
-          of Central African States (BEAC).
+          Make your dreams come true with Goal Savings. Whether you're planning
+          for the next school year or a travel investment, we're here to help.
+          Download the app now to create a goal.
         </p>
         {/* <div className="arrow"> */}
         <a href="#">

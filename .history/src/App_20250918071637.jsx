@@ -16,7 +16,7 @@ const App = () => {
       <Salut />
       <Saving />
       <Project />
-      <Investment />
+      <Inestment />
       <Ejara />
     </div>
   );
