@@ -1,8 +1,10 @@
 .app {
-  background-color: #fff;
-  padding: 3rem;
-  border-radius: 20px;
-  margin: 0 auto;
-  max-width: 1000px;
-  width: 100%;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 20px 0;
+    max-width: 1400px;
+    min-width: 375px;
+    width: 100%;
+    overflow: hidden;
+    min-height: 100vh;
 }

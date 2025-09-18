@@ -5,13 +5,14 @@ import "../styles/Salut.css";
 
 const Salut = () => {
   return (
-  <section className ="salut">
-      <img src={phoneApp} alt="phoneApp " />
+    <section className="salut">
+      <div className="phone">
+        <img src={phoneApp} alt="phoneApp " />
+      </div>
       <div className="image-container">
         <img src={line} alt="line" />
       </div>
-      </section>
-  
+    </section>
   );
 };
 export default Salut;

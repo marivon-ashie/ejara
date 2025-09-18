@@ -1,0 +1,15 @@
+.savingsBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    /* background-color: #f9f9f9; */
+}
+
+.savingsBox .image-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F1FFF9;
+}
